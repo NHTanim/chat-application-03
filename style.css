@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.chat_board{
+    display: flex;
+    height: 590px;
+    width: 800px;
+    background: gray;
+    margin-left: 50%;
+    transform: translate(-50%,1%);
+    border-radius: 5px;
+    position: relative;
+}
+
+/* ----part one */
+.part_one{
+    width: 250px;
+    height: 590px;
+    background-color: rgb(205, 215, 221);
+    position: relative;
+    border-radius: 5px 0 0 5px;
+}
+.part_one .search_btn{
+    background: rgb(54, 79, 224);
+    height: 55px;
+    width: 250px;
+    box-shadow: 0px 0px 2px rgb(3, 33, 82);
+}
+.search_btn input{
+    height: 30px;
+    width: 222px;
+    position: relative;
+    margin-left: 50%;
+    transform: translate(-50%,50%);
+    background-color: rgb(183, 202, 236);
+    border: none;
+    margin-top: -3px;
+}
+.search_btn input::placeholder{
+    padding-left: 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #fff;
+}
+/* .part_one .search_btn img{
+ position: relative;
+ margin-left: -190px;
+ border-radius: 50%;
+} */
+.friend_list .friend{
+    display: flex;
+    background: rgb(54, 79, 224);
+    height: 60px;
+    width: 250px;
+    box-shadow: 0px 0px 2px rgb(3, 33, 82);
+}
+.friend_name{
+    display: flex;
+    color: #FFF7F8;
+    font-family: sans-serif;
+}
+.friend_name .name h5{
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.friend_name .name p{
+    font-size: 11.5px;
+    margin-left: 10px;
+    line-height: 20px;
+  }
+  .friend_name .date{
+      margin-left: 80px;
+  }
+  .friend_name .date p{
+      font-size: 11px;
+      margin-top: 10px;
+  }
+.part_one .friend_list .friend img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.bottom_icon{
+    background-color: #033E99;
+    height: 55px;
+    width: 250px;
+    box-shadow: 0px 0px 2px rgb(3, 33, 82);
+}
+.bottom_icon img{
+    height: 30px;
+    width: 30px;
+    margin-top: 11px;
+    margin-left: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* part one end */
+
+
+
+/* part two start */
+.part_two{
+  background: #FFFFFF;
+  height: 590px;
+  width: 549px;
+}
+
+.chat_top{
+    height: 55px;
+    width: 549px;
+    background-color: #ECECEC;
+    display: flex;
+    box-shadow: 0px 0px 2px #ECECEC;
+}
+.chat_top h2{
+    font-size: 20px;
+    color: #003990;
+    font-family: sans-serif;
+    margin-top: 14px;
+    margin-left: 35px;
+}
+.chat_top img{
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 292px;
+    cursor: pointer;
+}
+
+
+.self{
+    margin-left: 280px;
+    font-family: sans-serif;
+}
+.self p{
+    background-color: #033E99;
+    padding: 10px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 10px 10px 0px 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+span{
+    font-size: 10px;
+}
+
+
+.friend{
+    display: flex;
+}
+.friend_img img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.friend_text{
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+.friend_text p{
+    background-color: rgb(175, 170, 170);
+    padding: 10px;
+    color: #000;
+    border-radius: 10px 10px 10px 0px;
+    font-size: 12px;
+}
+
+
+.send_option{
+    height: 55px;
+    width: 549px;
+    background: #ECECED;
+    margin-top: 371px;
+    display: flex;
+}
+.send_option img{
+    height: 25px;
+    width: 25px;
+    margin-top: 14px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.send_option input{
+    height: 36px;
+    width: 488px;
+    margin-top: 9px;
+    margin-left: 10px;
+    border: 1px solid #D0D0D0;
+    border-radius: 4px;
+}
+.send_btn::placeholder{
+    padding: 10px;
+}
+/* part two end */
